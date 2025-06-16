@@ -4,15 +4,6 @@
 
 This project demonstrates the development of an end-to-end supply chain analytics solution using AI tools. The primary objective is to automate the ingestion of daily sales data from emails, store it in a PostgreSQL database, and perform advanced analytics using Quadratic, an AI-powered spreadsheet tool. The project aims to address supply chain inefficiencies by providing real-time insights and key performance indicators (KPIs).
 
-## Table of Contents
-
-- [Technical Architecture](#technical-architecture)
-- [Setup Instructions](#setup-instructions)
-- [Usage Examples](#usage-examples)
-- [Key Metrics](#key-metrics)
-- [Conclusion](#conclusion)
-- [Additional Resources](#additional-resources)
-
 ## Technical Architecture
 
 ### Data Ingestion
