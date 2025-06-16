@@ -37,7 +37,6 @@ This project demonstrates the development of an end-to-end supply chain analytic
      - On-Time Delivery Rate: 95%
      - On-Time in Full (OTIF) Percentage: 80%
 
-## Setup Instructions
 
 ### Prerequisites
 
@@ -45,40 +44,6 @@ This project demonstrates the development of an end-to-end supply chain analytic
 - **PostgreSQL**: Relational database.
 - **Superbase**: Cloud-based platform for hosting PostgreSQL databases.
 - **Quadratic**: AI-powered spreadsheet tool.
-
-### Step-by-Step Setup
-
-1. **Create N8N Workflow**:
-   - Sign up at [n8.io](https://n8.io).
-   - Create a new workflow.
-   - Add a Gmail node to monitor your email inbox.
-   - Configure the node to extract attachments from emails with specific subjects.
-   - Add a "Convert from CSV" node to convert CSV data to JSON format.
-
-2. **Set Up PostgreSQL Database**:
-   - Sign up at [superbase.com](https://superbase.com).
-   - Create a new PostgreSQL database.
-   - Define tables for fact orders, order lines, customers, products, and target orders.
-   - Ensure the database schema reflects the relationships between these tables.
-
-3. **Connect N8N to PostgreSQL**:
-   - Add a PostgreSQL node to your N8N workflow.
-   - Configure the connection using your Superbase credentials.
-   - Map JSON data from N8N to the appropriate fields in your PostgreSQL tables.
-   - Test the workflow to ensure data is correctly inserted into the database.
-
-4. **Set Up Quadratic**:
-   - Sign up at [quadratichq.com](https://quadratichq.com).
-   - Create a new connection to your PostgreSQL database.
-   - Use the connection details from Superbase to establish the link.
-   - Create sheets for each table (e.g., dim customers, dim products, fact orders).
-   - Use queries to pull data from PostgreSQL into these sheets.
-
-5. **Perform Data Analysis**:
-   - Use Quadratic's AI capabilities to create KPIs such as line fill rate, volume fill rate, on-time delivery, and OTIF.
-   - Validate the generated KPIs using domain knowledge and Python coding skills.
-   - Ask business-related questions (e.g., "Show me monthly on-time performance by cities").
-   - Quadratic generates visualizations and tables based on the prompts.
 
 ## Usage Examples
 
@@ -91,20 +56,3 @@ This project demonstrates the development of an end-to-end supply chain analytic
 
 1. **Prompt**: "Show me the top five customers based on their order value and on-time in full (OTIF) percentage."
 2. **Result**: Quadratic generates a table with customer ID, customer name, city, total order value, OTIF percentage, and on-time percentage.
-
-## Key Metrics
-
-- **Data Ingestion Success Rate**: 100%
-- **Line Fill Rate**: 85%
-- **Volume Fill Rate**: 90%
-- **On-Time Delivery Rate**: 95%
-- **On-Time in Full (OTIF) Percentage**: 80%
-
-## Conclusion
-
-This project successfully demonstrates the integration of AI tools to automate and enhance supply chain analytics. By leveraging N8N for data ingestion and Quadratic for data analysis, the project provides valuable insights and KPIs, significantly improving supply chain efficiency and reliability.
-
-## Additional Resources
-
-- **Exercise PDF**: Available in the video description for hands-on practice.
-- **Quadratic Discount**: Special discounts for learners provided by the Quadratic team.
