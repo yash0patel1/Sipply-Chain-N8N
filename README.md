@@ -6,6 +6,8 @@ This project demonstrates the development of an end-to-end supply chain analytic
 
 ## Technical Architecture
 
+![Overview](images/overview.png)
+
 ### Data Ingestion
 
 1. **Email Monitoring**:
@@ -44,6 +46,8 @@ This project demonstrates the development of an end-to-end supply chain analytic
 - **PostgreSQL**: Relational database.
 - **Superbase**: Cloud-based platform for hosting PostgreSQL databases.
 - **Quadratic**: AI-powered spreadsheet tool.
+
+![Overview](images/flow.png)
 
 ## Usage Examples
 
